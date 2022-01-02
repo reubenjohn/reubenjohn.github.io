@@ -129,6 +129,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     &.fillHeight {
+      margin-top: var(--nav-height);
       padding: 0 150px;
 
       @media (max-width: 1080px) {
